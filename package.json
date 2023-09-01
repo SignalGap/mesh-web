@@ -1,0 +1,32 @@
+{
+  "name": "sgmesh-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "clean": "gulp clean",
+    "build": "gulp build",
+    "watch": "gulp watch"
+  },
+  "author": "Kay Anar",
+  "license": "ISC",
+  "module": "commonjs",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "del": "6.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^6.0.0",
+    "gulp-if": "^3.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.1.4",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify-es": "^3.0.0",
+    "node-sass": "^9.0.0",
+    "sass": "^1.66.1",
+    "swiper": "^10.2.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}

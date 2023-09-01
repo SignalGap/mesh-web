@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Signal Gap, Mesh Network">
+  <meta name="author" content="Signal Gap">
+  <title>Signal Gap Mesh</title>
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/css/site.css" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#adbaa8">
+  <meta name="msapplication-TileColor" content="#adbaa8">
+  <meta name="theme-color" content="#adbaa8">
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+
+    html,
+    body {
+      height: 100%;
+      width: 100%;
+    }
+
+
+    #particles-js {
+      height: 100%;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+    }
+
+    #particles-js canvas {
+      width: 100%;
+      height: 100%;
+      display: block;
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1);
+      z-index: 9999;
+      opacity: 1;
+      -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+      transition: opacity .8s ease, transform 1.4s ease
+    }
+  </style>
+</head>
+
+<body>
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <img src="/images/signalgap-mesh-transparent.svg" alt="Signal Gap Mesh" height="32" class="d-none d-md-block">
+          <img src="/images/sg-mesh-transparent.svg" alt="Bootstrap" height="32" class="d-none d-sm-block d-md-none">
+          <img src="/images/sgm-transparent.svg" alt="Bootstrap" height="32" class="d-block d-sm-none">
+        </a>
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="collapseNavbar">
+          <ul class="navbar-nav ms-auto nav-underline">
+            <li class="nav-item">
+              <a class="nav-link" href="/what/"><span class="d-block d-lg-none display-4 text-center">What</span><span
+                  class="d-none d-lg-block">What</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/why/"><span class="d-block d-lg-none display-4 text-center">Why</span><span
+                  class="d-none d-lg-block">Why</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/join/"><span class="d-block d-lg-none display-4 text-center">Join</span><span
+                  class="d-none d-lg-block">Join</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/map/"><span class="d-block d-lg-none display-4 text-center">Map</span><span
+                  class="d-none d-lg-block">Map</span></a>
+            </li>
+            <!--
+            <li class="nav-item">
+              <a class="nav-link" href="https://shop.signalgap.com"><span
+                  class="d-block d-lg-none display-4 text-center">Shop</span><span
+                  class="d-none d-lg-block">Shop</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/donate/"><span
+                  class="d-block d-lg-none display-4 text-center">Donate</span><span
+                  class="d-none d-lg-block">Donate</span></a>
+            </li>
+-->
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div id="particles-js" class="container-fluid bg-black">
+    <div class="w-100 h-100 position-absolute d-flex align-items-center ">
+      <div class="row w-75 mx-auto text-white">
+        <h5>Signal Gap Mesh is a community-based, open-source, off-grid, decentralized, LoRa mesh network for text
+          messaging.</h5>
+      </div>
+    </div>
+  </div>
+  <script src="/js/bootstrap.bundle.min.js"></script>
+  <script src="/js/particles.min.js"></script>
+  <script>
+    particlesJS.load("particles-js", "/js/particles.json");
+  </script>
+</body>
+
+</html>
